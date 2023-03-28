@@ -1,0 +1,20 @@
+#div1 > h1{
+	color: red;
+}
+/*
+O sinal > cria um critério onde somente vai alterar a tag filha, neste caso somente o h1 que está dentro da div1
+Se utilizar "div1 h1" então irá alterar todos os h1 dentro da div1, independentemente se houver mais divs dentro da div1
+
+*/
+
+
+.div2 h1 {
+
+	color: blue;
+}
+
+
+/* Por padrão utilizamos o ID somente para quando não for repetir essas alterações
+	Utilizamos classes para quando é uma alteração que se queira colocar em diferente lugares
+*/
+
