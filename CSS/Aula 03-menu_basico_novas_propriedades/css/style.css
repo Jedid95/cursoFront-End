@@ -1,0 +1,27 @@
+*{
+	/*Pega todos os elementos existentes*/
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.menu{
+	width: 900px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+/*
+div.menu {
+	width: 400px*/ /*Essa que será prioridade porque está sendo mais especificada div.menu*/
+/*}*/
+
+.menu  a{
+	font-size: 24px;
+	color: blue;
+	margin: 0 10px;
+	text-decoration: none;
+	border: 1px solid red;
+	padding: 8px;
+}
