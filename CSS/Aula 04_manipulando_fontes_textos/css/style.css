@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*
+Estilo para o conteudo do nosso site
+*/
+
+.artigo{
+	width: 1280px;
+	margin: 40px auto;
+	text-align: center;
+	background-color: rgb(200,200,200);
+	padding: 40px;
+}
+
+.artigo h1{
+	color: rgb(66, 149, 244);
+	font-size: 23px;
+	font-family: "Times new roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.artigo p{
+	font-size: 17px;
+	font-family: "tahoma";
+	font-style: normal;
+	font-weight: bold;
+	color: #b4b4b4;
+	margin-top: 30px;
+	line-height: 40px;
+}
