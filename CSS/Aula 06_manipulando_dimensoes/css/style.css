@@ -1,0 +1,32 @@
+/*
+Estilo para o conteudo do nosso site
+*/
+
+html,body {
+	height: 100%;
+} 
+
+.artigo{
+	width: 100%;
+	/*max-width: 300px;*/
+	min-width: 100px;
+	height: auto;
+	background-color: rgb(200,200,200);
+	text-align: center;
+}
+
+.artigo h1{
+	color: rgb(66, 149, 244);
+	font-size: 23px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.artigo p{
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	color: #b4b4b4;
+	margin-top: 30px;
+	line-height: 40px;
+}
