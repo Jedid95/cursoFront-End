@@ -1,0 +1,71 @@
+/*
+Estilo para o conteudo do nosso site
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 100%;
+} 
+
+.lista,.lista2{
+	list-style-position: inside;
+	list-style-type: circle;
+}
+
+.lista li,.lista2 li{
+	color: green;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 20px;
+
+}
+
+
+/*Isso será ignorado porque o .lista li está sendo mais especifico*/
+.item3{
+	color: red;
+}
+
+/*Assim a cor irá mudar por está sendo mais especifico*/
+.lista .item3{
+	color: blueviolet;
+	font-weight: bold;
+}
+
+
+
+ol{
+	list-style-position: inside;
+}
+
+ol > li{
+	color: red;
+}
+
+.um{
+	width: 500px;
+	height: 800px;
+	background:red;
+}
+
+.um > .dois{
+	width: 300px;
+	height: 300;
+	background: green;
+}
+
+.um > .tres{
+	width: 100px;
+	height: 100px;
+	background: blue;
+}
+
+.um > .tres > .quatro{
+	width: 100px;
+	height: 100px;
+	background: gray;
+}
