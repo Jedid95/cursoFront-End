@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Estilo para o conteudo do nosso site
+*
+*
+*/
+
+html, body{
+	height: 100%;
+}
+
+.center{
+	/*box-sizing: border-box;*/
+	width: 1280px;
+	margin: 0 auto;
+	background-color: gray;
+}
+
+.artigo{
+	width: 1280px;
+	margin-top: 50px;
+
+}
