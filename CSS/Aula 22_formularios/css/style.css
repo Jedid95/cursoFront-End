@@ -12,7 +12,7 @@ form{
 
 	width: 96%;
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 30px auto;
 	text-align: center;
 }
 
@@ -32,18 +32,31 @@ form input[type=text]{
 	margin-top: 30px;
 	width: 80%;
 	padding: 10px 13px;
+	font-family: tahoma;
 }
 
-form input[type=text]:focus{
+form input[type=text]:focus, form select:focus, form textarea:focus{
 	outline: 0;
+	border: 1px solid #ccc;
 	/*background-color: black;*/
 }
 
 form select{
+	font-family: tahoma;
+	color: rgb(100, 100, 100);
 	width: calc(80% + 26px);
 	margin-top: 30px;
 	padding: 10px 13px;
 	display: inline-block;
+	border: 1px solid #ccc;
+}
+
+form select option[disabled]{
+	color: orange;
+}
+
+form select option:nth-of-type(3){
+	color: red;
 }
 
 form h2{
@@ -51,14 +64,37 @@ form h2{
 	color:rgb(100, 100, 100);
 }
 
-.radio-input{
+.input{
 	display: inline-block;
 	text-align: left;
 	margin-top:20px ;
 }
 
-.radio-input span{
+.input span{
 	margin-left: 13px;
 	font-size: 16px;
 	color:rgb(130, 130, 130);
+}
+
+form input[type=submit]{
+	margin-top: 30px;
+	border: 0;
+	width: 140px;
+	height: 40px;
+	font-size: 16px;
+	border: 2px solid rgb(130, 130, 130);
+	color:white;
+	background-color: rgb(140, 140, 140);
+	cursor: pointer;
+}
+
+form textarea{
+	display: inline-block;
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 13px;
+	resize: none;
+	border: 1px solid #ccc;
+	height: 140px;
+	font-family: tahoma;
 }
