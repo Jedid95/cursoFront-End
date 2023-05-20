@@ -49,6 +49,12 @@ form select{
 	padding: 10px 13px;
 	display: inline-block;
 	border: 1px solid #ccc;
+	appearance: none;
+	background-image: url('../imagens/sprite.png');
+	background-size: 10px 20px;
+	background-repeat: no-repeat;
+	background-position: 96% 8px;
+	padding-left: 20px;
 }
 
 form select option[disabled]{
@@ -97,4 +103,25 @@ form textarea{
 	border: 1px solid #ccc;
 	height: 140px;
 	font-family: tahoma;
+}
+
+
+input[type=file]{
+	display: none;
+}
+
+label{
+	display: inline-block;
+	margin: 20px auto;
+	width: 220px;
+	height: 40px;
+	background-color: #ccc;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+input[type=checkbox]{
+	display: none;
 }
