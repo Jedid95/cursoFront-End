@@ -10,7 +10,7 @@ html, body{
 }
 
 .center{
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -44,7 +44,10 @@ html, body{
     position: relative;
     top: -15px;
     float: right;
-    border: 8px solid #ccc;
+    border-width: 12px;
+    border-color:rgba(128, 128, 128, 0.5);
+    border-style: solid;
+    background-clip: padding-box;
 }
 
 .form h2{
@@ -95,4 +98,22 @@ html, body{
 
 .form input[type=submit]:hover{
     background-color: #323665;
+}
+
+.container-list{
+    padding: 30px;
+    margin-top: 40px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    margin-top: 18px;
+    color: white;
 }
