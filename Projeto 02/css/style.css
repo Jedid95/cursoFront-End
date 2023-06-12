@@ -51,7 +51,6 @@ header{
 
 section.cover-form{
     width: 100%;
-    padding: 0 2%;
 }
 
 .bg{
@@ -138,7 +137,7 @@ section.chamada h2{
 }
 
 section.chamada .container{
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(215, 215, 215);
     padding: 50px 0;
 }
 
@@ -148,10 +147,22 @@ section.chamada p{
 
 
 
-
-
-
 /***Responsive**/
+
+@media screen and (max-width: 960px){
+    .bg{
+        text-align: center;
+    }
+
+    .form-container{
+        height: auto;
+        width: 96%;
+        max-width: 400px;
+        position: static;
+        display: inline-block;
+    }
+}
+
 @media screen and (max-width: 510px){
    
     header{
@@ -163,3 +174,4 @@ section.chamada p{
         float: none;
     }
 }
+
