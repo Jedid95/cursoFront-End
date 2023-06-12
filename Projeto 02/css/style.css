@@ -171,6 +171,21 @@ section.chamada p{
     color: black;
 }
 
+footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p{
+    margin-top: 8px;
+}
+
+footer img{
+    width: 120px;
+}
+
+
+
 
 /***Responsive**/
 
