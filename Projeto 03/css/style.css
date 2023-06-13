@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
 }
 
 html, body{
@@ -22,10 +22,11 @@ header{
     width: 100%;
     height: 90vh;
     padding: 40px 2%;
-    max-height: 700px;
+    /*max-height: 700px;*/
     background-size: cover;
     background-position: center;
     background-image: url('../images/capa.png');
+    font-weight: 300;
 }
 
 header .logo{
@@ -62,6 +63,7 @@ header nav a{
 }
 
 .chamada-1 h2{
+    font-weight: 300;
     font-size: 35px;
     color: white;
     font-weight: normal;
@@ -71,4 +73,60 @@ header nav a{
     font-size: 15px;
     color: white;
     margin-top: 10px;
+}
+
+section.sessao-1{
+    width: 100%;
+    background-color: #472562;
+    padding: 0px 2%;
+}
+
+section.sessao-1 .container{
+    max-width: 1000px;
+}
+
+.texto-sessao-1{
+    float: left;
+    color: white;
+    width: 50%;
+}
+
+.texto-sessao-1 h2{
+    font-weight: 300;
+}
+
+.texto-sessao-1 p{
+    font-size: 13px;
+    margin-top: 20px;;
+}
+
+.texto-sessao-1 ul{
+    list-style-position: inside;
+    font-size: 13px;
+}
+
+.texto-sessao-1 ul li{
+    float: left;
+    width: 100%;
+}
+
+.btn1-texto{
+    background-color: #FF703D;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 30px;
+}
+
+.device-sessao-1{
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-image: url('../images/device.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
