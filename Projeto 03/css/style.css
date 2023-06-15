@@ -122,6 +122,8 @@ header nav.desktop-menu a{
     margin-top: 10px;
 }
 
+
+/*** Sessao 1 ***/
 section.sessao-1{
     width: 100%;
     background-color: #472562;
@@ -185,6 +187,8 @@ section.sessao-1 .container{
     position: relative;
     top: -30px;
 }
+/*** Sessao 1 end ***/
+
 
 /*** Sessao 2***/
 
@@ -257,7 +261,7 @@ section.sessao-1 .container{
 .parte-2{
     float: left;
     width: 50%;
-    padding: 140px 0 90px 0;
+    padding: 125px 0 90px 0;
     background: white;
 }
 
@@ -328,6 +332,107 @@ section.sessao-1 .container{
     background-color: rgb(200, 200, 200);
 }
 /*** Sessao 3 end ***/
+
+
+/*** Sessao 4 ***/
+
+section.sessao-4{
+    background-color: #472563;
+    padding: 100px 0;
+}
+
+.form{
+    float: left;
+    width: 50%;
+    color: white;
+    padding-left: 10px;
+}
+
+.form h2{
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.form p{
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 400px;
+    padding-right: 10px;
+}
+
+.form form input[type=text]{
+    width: 90%;
+    max-width: 480px;
+    height: 58px;
+    padding-left: 8px;
+    line-height: 58px;
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 8px;
+}
+
+.form form{
+    margin-top: 15px;
+}
+
+.form form textarea{
+    width: 90%;
+    max-width: 480px;
+    padding: 15px;
+    border: 1px solid rgb(200, 200, 200);
+    height: 160px;
+    margin-top: 8px;
+}
+
+.form form input[type=submit]{
+    border: 0;
+    background-color: #FF703D;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 13px;
+    margin-top: 30px;
+
+}
+
+.map-wraper{
+    float: left;
+    width: 50%;
+    color: white;
+    padding: 0 10px;
+}
+
+.map-wraper h2{
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.map-wraper-3{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+}
+
+.map-wraper-2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.map{
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: white;
+    border: 5px solid rgb(200, 200, 200);
+    width: 100%;
+    height: 100%;
+}
+/*** Sessao 4 end ***/
 
 
 
@@ -404,6 +509,43 @@ section.sessao-1 .container{
 
     .sessao-2{
         padding: 40px 2%;
+    }
+
+    .sessao-4 .container{
+        text-align: center;
+    }
+    .map-wraper{
+        width: 100%;
+        margin-top: 60px;
+        float: none;
+        padding: 0 4%;
+    }
+
+    .map-wraper-3{
+        margin-top: 10px;
+        width: 80%;
+        padding-top: 80% ;
+        max-width: none;
+        position: relative;
+        display: inline-block;
+    }
+
+    .map-wraper-2{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding-top: 0;
+        height: 100%;
+    }
+
+    .form{
+        float: none;
+        width: 100%;
+    }
+
+    .form p{
+        display: inline-block;
     }
 }
 
