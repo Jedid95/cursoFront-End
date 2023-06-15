@@ -229,6 +229,7 @@ section.sessao-1 .container{
     max-width: 600px;
     float: right;
     padding-right: 30px;
+    padding-left: 30px;
 }
 
 .parte-1{
@@ -330,12 +331,8 @@ section.sessao-1 .container{
 
 
 
-
-
-
-
 /**** Responsivo ****/
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
 
     header{
         width: 100%;
@@ -407,5 +404,23 @@ section.sessao-1 .container{
 
     .sessao-2{
         padding: 40px 2%;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .parte-1{
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .parte-2{
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .sessao-2 img{
+        /*top: 10px;*/
+        margin-top: 20px;
     }
 }
