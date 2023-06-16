@@ -1,3 +1,4 @@
+/*** General **/
 *{
 	margin: 0;
 	padding: 0;
@@ -19,7 +20,11 @@ html,body{
 	height: 100%;
 }
 
-/**Header do site**/
+/*** General end **/
+
+
+
+/**Site Header**/
 
 header{
 	padding:20px 2%;
@@ -51,6 +56,4 @@ header ul a{
 	text-decoration: none;
 }
 
-
-
-/***/
+/**Site Header end**/
