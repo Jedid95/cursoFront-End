@@ -180,7 +180,7 @@ section.veiculos-destaque .container{
 }
 
 
-section.veiculos-destaque .line-titulo h2{
+.line-titulo h2{
 	position: relative;
 	background: white;
 	display: inline-block;
@@ -334,6 +334,96 @@ section.veiculos-destaque .line-titulo h2{
 /*** Depoimentos end ***/
 
 
+/*** Contato ***/
+
+section.contato{
+	padding:80px 2%;
+}
+
+section.contato form{
+	max-width: 600px;
+	margin:50px auto;
+}
+
+section.contato .input-wraper{
+	float: left;
+	padding:10px;
+	margin-top:7px;
+}
+
+section.contato input[type=text]{
+	width: 100%;
+	border: 1px solid #ccc;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+section.contato textarea{
+	width: 100%;
+	border:1px solid #ccc;
+	height: 120px;
+	padding:8px;
+	resize: none;
+}
+
+section.contato form .input-wraper:nth-of-type(5){
+	text-align: center;
+}
+
+section.contato input[type=submit]{
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 50%;
+}
+/*** Contato End ***/
+
+
+/*** Footer ***/
+footer{
+	padding:40px 2%;
+	background: #252525;
+}
+
+footer nav{
+	float: left;
+}
+
+footer nav ul{
+	list-style-type: none;
+}
+
+footer nav ul li{
+	float: left;
+	font-style: italic;
+	padding:0 35px;
+	font-size: 19px;
+}
+
+footer nav ul a{
+	color: white;
+	text-decoration: none;
+}
+
+footer p{
+	float: right;
+	color: white;
+	font-size: 19px;
+	font-style: italic;
+}
+
+/*** Footer end ***/
+
 
 /*** Responsivo **/
 @media screen and (max-width: 1400px){
@@ -381,6 +471,23 @@ section.veiculos-destaque .line-titulo h2{
 }
 
 @media screen and (max-width: 768px){
+
+	footer nav{
+		display: none;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer p{
+		float: none;
+	}
+
+	.w50{
+		width: 100%;
+	}
+	
 	.nome-depoimento{
 			float: right;
 			width: auto;
