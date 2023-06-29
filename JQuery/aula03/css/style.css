@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.artigo1{
+    background-color: aqua;
+    padding-top: 50px;
+}
+
+.artigo2{
+    background-color: blueviolet;
+    padding-top: 50px;
+}
